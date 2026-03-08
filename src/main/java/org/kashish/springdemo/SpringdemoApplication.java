@@ -11,6 +11,7 @@ public class SpringdemoApplication {
         ApplicationContext context = SpringApplication.run(SpringdemoApplication.class, args);
         Alein obj =context.getBean(Alein.class);
         obj.code();
+
     }
 
     
