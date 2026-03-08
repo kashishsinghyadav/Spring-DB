@@ -1,13 +1,17 @@
 package org.kashish.springdemo.service;
 
+import org.kashish.springdemo.LaptopRepository;
 import org.kashish.springdemo.model.Laptop;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class LaptopService {
+    @Autowired
+private LaptopRepository laptopRepository;
 
     public void addLaptop(Laptop laptop) {
-        System.out.println("Laptop added");
+        laptopRepository.save(laptop);
     }
 
 
