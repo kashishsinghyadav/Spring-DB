@@ -26,4 +26,7 @@ public StudentService(StudentRepo studentRepo) {
     public void addStudent(Student student) {
         studentRepo.save(student);
     }
+    public void getStudent(){
+        System.out.println(studentRepo.findAll());
+    }
 }

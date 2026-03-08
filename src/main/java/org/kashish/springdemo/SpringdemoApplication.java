@@ -19,7 +19,7 @@ public class SpringdemoApplication {
       student.setGender("Female");
 
       studentService.addStudent(student);
-
+        studentService.getStudent();
 
     }
 
