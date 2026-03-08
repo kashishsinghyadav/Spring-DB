@@ -14,7 +14,7 @@ public class SpringdemoApplication {
 
       Student student = context.getBean(Student.class);
         StudentService studentService = context.getBean(StudentService.class);
-      student.setName("Kashish");
+      student.setName("ashish");
       student.setAge(23);
       student.setGender("Female");
 
