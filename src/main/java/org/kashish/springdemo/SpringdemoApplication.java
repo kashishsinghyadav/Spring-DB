@@ -1,8 +1,7 @@
 package org.kashish.springdemo;
 
-import org.kashish.springdemo.model.Alein;
-import org.kashish.springdemo.model.Laptop;
-import org.kashish.springdemo.service.LaptopService;
+import org.kashish.springdemo.model.Student;
+import org.kashish.springdemo.service.StudentService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -13,12 +12,14 @@ public class SpringdemoApplication {
     public static void main(String[] args) {
         ApplicationContext context = SpringApplication.run(SpringdemoApplication.class, args);
 
-        LaptopService servive = context.getBean(LaptopService.class);
-        Laptop laptop =context.getBean(Laptop.class);
+      Student student = context.getBean(Student.class);
+        StudentService studentService = context.getBean(StudentService.class);
+      student.setName("Kashish");
+      student.setAge(23);
+      student.setGender("Female");
 
-        servive.addLaptop(laptop);
-//        Alein obj =context.getBean(Alein.class);
-//        obj.code();
+      studentService.addStudent(student);
+
 
     }
 
