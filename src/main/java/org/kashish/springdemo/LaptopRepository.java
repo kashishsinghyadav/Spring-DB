@@ -2,8 +2,9 @@ package org.kashish.springdemo;
 
 import org.kashish.springdemo.model.Laptop;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+@Repository
 public class LaptopRepository {
 
     public void save(Laptop l) {
