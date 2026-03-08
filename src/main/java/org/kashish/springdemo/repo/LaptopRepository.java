@@ -1,7 +1,6 @@
-package org.kashish.springdemo;
+package org.kashish.springdemo.repo;
 
 import org.kashish.springdemo.model.Laptop;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 @Repository

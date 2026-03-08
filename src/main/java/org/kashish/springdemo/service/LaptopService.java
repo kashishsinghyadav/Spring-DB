@@ -1,6 +1,6 @@
 package org.kashish.springdemo.service;
 
-import org.kashish.springdemo.LaptopRepository;
+import org.kashish.springdemo.repo.LaptopRepository;
 import org.kashish.springdemo.model.Laptop;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
