@@ -1,4 +1,4 @@
-package org.kashish.springdemo;
+package org.kashish.springdemo.model;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

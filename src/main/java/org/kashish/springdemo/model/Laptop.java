@@ -1,11 +1,9 @@
-package org.kashish.springdemo;
+package org.kashish.springdemo.model;
 
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-@Primary
-public class Desktop implements Computer {
+public class Laptop implements Computer {
     @Override
     public void compile() {
         System.out.println("Laptop compiled");
