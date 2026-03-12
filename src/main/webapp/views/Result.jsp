@@ -14,7 +14,7 @@
 
     <h2>Result</h2>
 
-    <p>The Sum is: <strong>$<%=session.getAttribute("result")%></strong></p>
+    <p>The Sum is: <strong>${result}</strong></p>
 
     <a href="/">Go Back</a>
 
