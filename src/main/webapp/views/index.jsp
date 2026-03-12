@@ -16,12 +16,12 @@
 
     <h2>Add Two Numbers</h2>
 
-    <form action="add">
+    <form action="adddetails">
 
-        <input type="number" name="num1" placeholder="First Number" required>
+        <input type="number" name="sno" id="sno" placeholder="RollNo Number" required>
         <br>
 
-        <input type="number" name="num2" placeholder="Second Number" required>
+        <input type="text" name="sname" id="sname" placeholder="Second Number" required>
         <br>
 
         <button type="submit">Add</button>

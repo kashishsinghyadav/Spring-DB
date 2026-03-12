@@ -14,7 +14,7 @@
 
     <h2>Result</h2>
 
-    <p>The Sum is: <strong>${result}</strong></p>
+    <p>The Course is: ${alein}</p>
 
     <a href="/">Go Back</a>
 
